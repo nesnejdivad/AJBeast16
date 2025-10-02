@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AJ Beast: Rocking football, fishing, basketball, running, and Top Golf. Repping Panthers in black and gold!">
+    <title>AJ Beast | Official Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: 'Oswald', sans-serif;
+        }
+        h1, h2, h3 {
+            color: #FFD700;
+        }
+        section {
+            border: 2px solid #FFD700;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .fishing-img, .crosscountry-img {
+            object-fit: contain;
+            max-height: 100%;
+            width: auto;
+        }
+        .cashtag {
+            font-family: 'Bangers', cursive;
+            color: #FFD700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 177.78%; /* 9:16 portrait ratio (568/320) */
+            height: 0;
+            overflow: hidden;
+            border: 2px solid #FFD700;
+            border-radius: 0.5rem;
+            max-width: 320px; /* Portrait width */
+            margin: 0 auto;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans&family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Hero Section -->
+    <section id="home" class="container mx-auto py-16 text-center">
+        <h1 class="text-5xl font-bold mb-4">AJBeast.me</h1>
+        <p class="cashtag mb-4">Cashtag $AJBeast16</p>
+        <p class="text-xl mb-4">Football Star | Fishing King | Basketball Boss | Runner</p>
+        <p class="cashtag">Cashtag $AJBeast16</p>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">About AJ Beast</h2>
+        <div class="flex flex-col md:flex-row items-center">
+            <img src="https://lh3.googleusercontent.com/sitesv/AICyYdZgf6myO4qDeyG9qr9TuNXLecjf389xi2jIhBEv-PvdkUat7SITuzAxNRobv6vqdgQpRh_ANwQen9R256coEIYwPiSoAZCkIXavYRx7jGz5JaDGbdMkPEcBwE9BUqArPrpz1ElUdzyEUTB64feAEAXbzj085xcCg_bPMWzvzAKRRDn6OHOOaPmI=w1280" alt="AJ Beast" class="w-64 h-64 object-cover rounded-full mb-4 md:mr-8">
+            <div>
+                <p class="text-lg">Yo, I'm Aiden 'AJ Beast'—unstoppable! I'm all about crushing it on the football field, reeling in huge fish, owning the basketball court, and flying on the cross country track. Repping the Panthers in black & gold. My nickname? Earned it with pure hustle. What's your game?</p>
+                <ul class="list-disc list-inside mt-4 text-yellow-400">
+                    <li>Nickname: AJ Beast (born from epic plays!)</li>
+                    <li>Team: Panthers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Football Section -->
+    <section id="football" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Football: Panthers</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <img src="https://nesnejdivad.github.io/AJBeast16/football1.jpg" alt="Football action 1" class="w-full h-48 object-cover rounded-lg">
+            <img src="https://nesnejdivad.github.io/AJBeast16/football2.jpg" alt="Football action 2" class="w-full h-48 object-cover rounded-lg">
+            <img src="https://nesnejdivad.github.io/AJBeast16/defensive-player.jpg" alt="Defensive Player of the Game" class="w-full h-48 object-cover rounded-lg">
+        </div>
+        <p class="text-lg text-center">Gridiron Beast Mode | Tackles, touchdowns, and team spirit. Go Panthers!</p>
+    </section>
+    <!-- Fishing Section -->
+    <section id="fishing" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Fishing Adventures</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <img src="https://nesnejdivad.github.io/AJBeast16/fish1.jpg" alt="Fishing moment 1" class="w-full h-48 fishing-img rounded-lg">
+            <img src="https://nesnejdivad.github.io/AJBeast16/fish2.jpg" alt="Fishing moment 2" class="w-full h-48 fishing-img rounded-lg">
+            <img src="https://nesnejdivad.github.io/AJBeast16/fish3.jpg" alt="Fishing moment 3" class="w-full h-48 fishing-img rounded-lg">
+        </div>
+        <p class="text-lg text-center">Reel Life | From epic catfish battles to chill casts—nothing beats the water!</p>
+    </section>
+    <!-- Top Golf Highlights Section -->
+    <section id="topgolf" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Top Golf Beast Mode</h2>
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1bNNj3oZgu5H_th6BBAyPEhlQvfy6Ug9Z/preview" width="320" height="568" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        <p class="text-lg text-center mt-4">Crushing drives at Top Golf—watch the Beast in action!</p>
+    </section>
+    <!-- Basketball Section -->
+    <section id="basketball" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Basketball Hustle</h2>
+        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=800&auto=format&fit=crop" alt="AJ basketball" class="w-full h-64 object-cover rounded-lg mb-4">
+        <p class="text-lg text-center">Hoops Hero | Crossovers, jumpers, and endless energy. Who's got next?</p>
+        <ul class="list-disc list-inside mt-4 text-yellow-400 text-center">
+            <li>Favorite Player: Me</li>
+            <li>Best Move: Crossover</li>
+        </ul>
+    </section>
+    <!-- Cross Country Section -->
+    <section id="crosscountry" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Cross Country</h2>
+        <img src="https://nesnejdivad.github.io/AJBeast16/cross%20country.jpg" alt="Cross Country action" class="w-full h-64 crosscountry-img rounded-lg mb-4">
+        <p class="text-lg text-center">WHO'S GONNA CARRY THE BOATS</p>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Hit Me Up, Beast Squad!</h2>
+        <p class="text-lg text-center mb-4">Drop your IG, Snap, cell phone, or any way to get in touch in the 'Your answer' field below, then hit Submit to join the Beast Squad!</p>
+        <div class="w-full max-w-2xl mx-auto">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUjX9JxYSbCe5vlsnNJIypdSvIOJZA-fKcRNfm33aOBD097g/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-black text-center py-6">
+        <p class="text-yellow-400">© 2025 AJ Beast | Panthers Forever | Built with ❤️</p>
+    </footer>
+</body>
+</html>
